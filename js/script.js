@@ -82,6 +82,10 @@ $(document).ready(function () {
         $(this).toggleClass("highlight");
     });
 
+     $(".skills").on("click", function () {
+        $(this).toggleClass("highlight");
+    });
+
     // search filter
     $("#searchProject").on("keyup", function () {
 
