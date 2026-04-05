@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Web Resume</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+<header>
+    <h1 id="welcomeText">Welcome to My Resume</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- About -->
+<section id="about">
+    <img src="assets/profile.png" alt="Profile Photo" class="profile">
+    <h2>About Me</h2>
+    <p>I am a BSIT student at USTP</p>
+</section>
+
+<!-- Education -->
+<section id="education">
+    <h2>Education</h2>
+    <ul>
+        <li>Bachelor of Information Technology</li>
+        <li>Web Systems and Technologies</li>
+    </ul>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <h2>Skills</h2>
+    <button id="toggleSkills">Show/Hide Skills</button>
+    <ul id="skillsList" style="display: none;"> <!-- toggle inlineee -->
+        <li class="skills">HTML</li>
+        <li class="skills">CSS</li>
+        <li class="skills">JavaScript</li>
+    </ul>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <h2>Projects</h2>
+    <input type="text" id="searchProject" placeholder="Search project...">
+    <ul id="projectList">
+        <!-- on js -->
+    </ul>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Name" required><br><br>
+        <input type="email" id="email" placeholder="Email" required><br><br>
+        <textarea id="message" placeholder="Message" required></textarea><br><br>
+        <button type="submit">Send</button>
+    </form>
+    <p id="formFeedback"></p>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
