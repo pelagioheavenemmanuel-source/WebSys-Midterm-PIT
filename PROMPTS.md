@@ -11,9 +11,11 @@ create and append elements
 form validaiton for send button
 jqeuery section after  (after $(document).ready()) for toggleclass highlight for projects and search project-- filter by text"
 
-AI Output (summary or screenshot reference): It gave me a code based on my requests.
+AI Output (summary or screenshot reference): It gave me a code based on my requests. 
 How I used/modified it in my project: I utilized it to reference and as a sort of guide for my final code.
+
 --------------------------------------------
+
 Entry #2
 Prompt (copy-paste exactly): 
 
