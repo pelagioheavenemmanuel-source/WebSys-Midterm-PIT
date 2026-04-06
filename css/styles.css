@@ -118,6 +118,15 @@ li {
     background: #e9ecef;
 }
 
+.educ {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.educ:hover {
+    background: #e9ecef;
+}
+
 .highlight {
     background: #fff3cd !important;
     border-left-color: #ffc107 !important;
