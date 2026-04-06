@@ -86,6 +86,10 @@ $(document).ready(function () {
         $(this).toggleClass("highlight");
     });
 
+    $(".educ").on("click", function () {
+        $(this).toggleClass("highlight");
+    });
+
     // search filter
     $("#searchProject").on("keyup", function () {
 
