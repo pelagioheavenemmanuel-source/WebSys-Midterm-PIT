@@ -54,22 +54,23 @@ section {
 
 h2 {
     color: #333;
-    border-bottom: 2px solid #b8acfd;
+    border-bottom: 2px solid #202a2e;
     padding-bottom: 10px;
 }
 
 button {
-    background: #b8acfd;
+    background: #424f53;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    transition: 0.5s;
 }
 
 button:hover {
-    background: #9a8fd8;
+    background: #202a2e;
 }
 
 input, textarea {
@@ -97,7 +98,7 @@ li {
     margin: 10px 0;
     padding: 15px;
     border-radius: 5px;
-    border-left: 4px solid #b8acfd;
+    border-left: 4px solid #202a2e;
 }
 
 .project {
